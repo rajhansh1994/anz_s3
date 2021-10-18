@@ -1,4 +1,4 @@
-terraform {
+/*terraform {
   backend "s3" {
     bucket         = "raj-anz-remote-state-backend"
     key            = "global/ec2/terraform.tfstate"
@@ -6,4 +6,4 @@ terraform {
     dynamodb_table = "raj-anz-remote-state-backend"
     encrypt        = true
   }
-}
+}*/
